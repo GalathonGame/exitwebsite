@@ -18,19 +18,10 @@ menu.addEventListener("click", async() => {
         {
             yo.classList.remove("hidden")
         }
-        document.body.style.position = 'fixed';
-        document.body.style.top = `-${window.scrollY}px`;
-        document.body.style.paddingLeft = '50px'
         console.log(checked.checked)
     }
     else if (checked.checked===false)
     {
-        const scrollY = document.body.style.top;
-        document.body.style.position = '';
-        document.body.style.top = '';
-        
-        document.body.style.paddingLeft = '0px'
-        window.scrollTo(0, parseInt(scrollY || '0') * -1);
 
         if (yo.classList.contains("hidden")&&yo.classList.contains("active"))
         {

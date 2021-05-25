@@ -422,7 +422,7 @@
     background-color: #F5F6FA;
     -webkit-font-smoothing: antialiased;
     transition: cubic-bezier(0.77,0.2,0.05,1.0);
-    transition: 1.5s;
+    transition: 1s;
     margin: 0 !important;
     display: flex;
     justify-content: center;
@@ -438,7 +438,7 @@
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
     transition: cubic-bezier(0.77,0.2,0.05,1.0);
-    transition: 1.5s;
+    transition: 1s;
 
 
   }

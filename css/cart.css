@@ -157,19 +157,20 @@ label {
 .cart-checkout {
     width: 100%;
     height: 50px;
-    background-color: gray;
-    color: white;
     font-weight: 500;
     margin-top: 15px;
     transition: .5s;
+    color: black;
+    
+    background-color: white;
+    border: solid 1px black;
 }
 
 .cart-checkout:hover {
-    background-color: white;
-    border: solid 1px black;
+    background-color: gray;
+    color: white;
     
     transition: .5s;
-    color: black;
 }
 
 

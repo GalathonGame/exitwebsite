@@ -287,7 +287,9 @@
   }
 }
 
-
+.arc-iframe-app {
+  display: none !important;
+}
 
 
 
@@ -298,6 +300,7 @@
   .navbar {
     margin-top: 5vh;
     height: 5vh;
+    margin-bottom: 3vh;
   }
 
   .navbar-brand {

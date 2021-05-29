@@ -24,6 +24,7 @@
 
 body {
   background-color: #343a40 !important;
+  overflow-x: hidden !important;
 }
 
 .nav-link {

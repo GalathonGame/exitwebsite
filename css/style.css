@@ -22,8 +22,29 @@
   font-weight: 400 !important;
 }
 
+body {
+  background-color: #343a40 !important;
+}
 
+.nav-link {
+  color: rgb(0 255 191) !important;
+}
 
+.fa-search {
+  color: rgb(0 255 191) !important;
+}
+
+.fa-shopping-bag {
+  color: rgb(0 255 191) !important;
+}
+
+.logo-img {
+  width: auto;
+  height: 40px;
+  object-fit: cover;
+  
+
+}
 
 @media (min-width: 1200px) {
 
@@ -43,6 +64,7 @@
     font-size: 40px !important;
     position: absolute;
     margin-left: 50px;
+    top: -15px;
   }
 
   .nav-link {
@@ -55,7 +77,6 @@
     margin-left: 20px;
     margin-right: 20px;
 
-    color: black !important;
   }
   .far {
     margin-right: 50px !important;
@@ -290,9 +311,6 @@
   }
 }
 
-.arc-iframe-app {
-  display: none !important;
-}
 
 
 
@@ -369,7 +387,7 @@
     height: 2px;
     margin-bottom: 7px;
     position: relative;
-    background: #000;
+    background: rgb(0 255 191);
     border-radius: 3px;
     z-index: 5;
     transform-origin: 5px 0px;

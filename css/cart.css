@@ -24,7 +24,9 @@
 }
 
 .cart-main {
-    margin-top: 7.5vh !important;
+    padding-top: 7.5vh !important;
+    background-color: white !important;
+    padding-bottom: 100px;
 }
 
 .cart-h1 {
@@ -37,8 +39,9 @@
 }
 
 .container {
-    margin-top: 10vh;
+    padding-top: 10vh;
     max-width: calc(100vw - 20vw);
+    background-color: white !important;
     
 }
 
@@ -208,7 +211,6 @@ select {
 }
 
 .footer {
-    margin-top: 100px;
     background-color: rgb(46, 45, 45);
 
 }
@@ -256,3 +258,4 @@ select {
         display: block;
     }
 }
+

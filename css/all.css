@@ -1,8 +1,19 @@
 
 .container {
     max-width: 95vw !important;
+    padding-top: 10vh;
+    background-color: white;
+    margin: 0 !important;
+
 }
 
+.heheboi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white !important;
+    padding-bottom: 100px;
+}
 
 .all-h3 {
     font-weight: 500;

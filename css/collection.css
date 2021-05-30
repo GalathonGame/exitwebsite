@@ -8,11 +8,6 @@
     justify-content: center;
 }
 
-.collection-img {
-    height: auto;
-    max-width: 100%;
-}
-
 .collection-btn {
 
     line-height: 50px;
@@ -40,3 +35,7 @@
 }
 
 
+.active {
+    transform: none !important;
+    height: 100vh !important;
+}

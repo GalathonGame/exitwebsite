@@ -443,7 +443,7 @@ body {
     justify-content: center;
     flex-direction: column;
   }
-  .active
+  .navactive
   {
     transform: translate(-100vw,0);
     position: absolute;
@@ -467,7 +467,7 @@ body {
 
   
 
-  .active li {
+  .navactive li {
     transition: 2s !important;
   }
 

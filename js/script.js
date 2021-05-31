@@ -8,7 +8,7 @@ menu.addEventListener("click", async() => {
     if (checked.checked === true)
     {
         document.body.scroll ='disable'
-        if (yo.classList.contains("hidden")&&yo.classList.contains("active"))
+        if (yo.classList.contains("hidden")&&yo.classList.contains("navactive"))
         {
             yo.classList.remove("hidden")
         }
@@ -16,8 +16,8 @@ menu.addEventListener("click", async() => {
         yo.classList.remove('hidden')
         
         
-        setTimeout(function() {yo.classList.add('active')},5)
-        if (yo.classList.contains("hidden")&&yo.classList.contains("active"))
+        setTimeout(function() {yo.classList.add('navactive')},5)
+        if (yo.classList.contains("hidden")&&yo.classList.contains("navactive"))
         {
             yo.classList.remove("hidden")
         }
@@ -29,11 +29,11 @@ menu.addEventListener("click", async() => {
     {
         
         document.body.style.overflowY = ''
-        if (yo.classList.contains("hidden")&&yo.classList.contains("active"))
+        if (yo.classList.contains("hidden")&&yo.classList.contains("navactive"))
         {
-            yo.classList.remove("active")
+            yo.classList.remove("navactive")
         }
-        yo.classList.remove('active');
+        yo.classList.remove('navactive');
 
         yo.addEventListener('transitionend', function(e) {setTimeout(function(){yo.classList.add('hidden');}),50}, {capture:false, once: true, passive: false});
         console.log(checked.checked)

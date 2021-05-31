@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const checked = document.getElementById('menu-inp')
 const menu= document.getElementById("menuToggle")
 const yo = document.querySelector('.yobro')
@@ -48,4 +49,56 @@ function noscroll() {
 
 function scroll() {
     document.body.style.overflowY = ''
+=======
+const checked = document.getElementById('menu-inp')
+const menu= document.getElementById("menuToggle")
+const yo = document.querySelector('.yobro')
+
+
+menu.addEventListener("click", async() => {
+    
+    if (checked.checked === true)
+    {
+        document.body.scroll ='disable'
+        if (yo.classList.contains("hidden")&&yo.classList.contains("navactive"))
+        {
+            yo.classList.remove("hidden")
+        }
+
+        yo.classList.remove('hidden')
+        
+        
+        setTimeout(function() {yo.classList.add('navactive')},5)
+        if (yo.classList.contains("hidden")&&yo.classList.contains("navactive"))
+        {
+            yo.classList.remove("hidden")
+        }
+        console.log(checked.checked)
+
+        document.body.style.overflowY = 'hidden'
+    }
+    else if (checked.checked===false)
+    {
+        
+        document.body.style.overflowY = ''
+        if (yo.classList.contains("hidden")&&yo.classList.contains("navactive"))
+        {
+            yo.classList.remove("navactive")
+        }
+        yo.classList.remove('navactive');
+
+        yo.addEventListener('transitionend', function(e) {setTimeout(function(){yo.classList.add('hidden');}),50}, {capture:false, once: true, passive: false});
+        console.log(checked.checked)
+    }
+})
+
+
+function noscroll() {
+    document.body.style.overflowY = 'hidden'
+}
+
+
+function scroll() {
+    document.body.style.overflowY = ''
+>>>>>>> de42046ce5993c148428dfcb737db4714b0a1c9a
 }
